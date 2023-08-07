@@ -1,2 +1,1286 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"><meta name="version" content="v202009161150"><link rel="shortcut icon" href="http://192.168.100.22/favicon.ico?t=faca32f1"><link href="login_files/perfect-scrollbar.css" rel="stylesheet"><link id="baseCss" href="login_files/base.css" rel="stylesheet"><link type="text/css" href="login_files/total.css" rel="stylesheet"><link type="text/css" href="login_files/mobile.css" rel="stylesheet" media="screen and (max-width:767px)"><title id="title">login</title><noscript><meta http-equiv="refresh" content="0; url=error.html?t=faca32f1"/></noscript><script id="lan-js" type="text/javascript" src="login_files/lan.js"></script><link id="lan-css" type="text/css" rel="stylesheet" href="login_files/lan.css"><script type="text/javascript" src="login_files/language_002.js"></script></head><body class="vsc-initialized"><div id="main-container" class="container widget-container html-loader-container"><div id="main-view" view="{main}"><div widget="htmlLoader" id="basic-module-container" data-bind="basicModuleLoader" class="container widget-container html-loader-container"><div view="{loginView}" class="login-view"><div widget="simpleDom" class="login-main-container" data-bind="mainContainer" id="widget--08e13a1e-e134-b291-10a4-801a6dffa9ae"><div class="login-background"></div><div class="main-content login-main-content"><div class="top"><div class="top-bar"><div class="inline-block logo img-container" widget="img" img-src="{logoIcon}" id="widget--32c22a2e-c134-b291-10a4-801d294030be"><img src="login_files/logo-icon.jpg" alt=""></div><div class="logo-separator">|</div><div class="page-title inline-block container widget-container displaylabel-container" widget="displaylabel" data-bind="{productName}" id="widget--2530ea38-2134-b291-10a4-8013ca2327c2"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel text-fieldlabel"></label></div></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap-before"></span><span class="text-wrap-display">Archer&nbsp;C24</span><span class="text-wrap-after"></span></div><div widget="errortip" error-cls="" id="widget--2530ea38-2134-b291-10a4-8013ca2327c2_errortip" class="displaylabel-error-tips widget-error-tips" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content"></div></div></div><div class="widget-tips textbox-tips " style="display: none;"><div class="content tips-content"></div></div></div></div></div></div><div></div><div class="login-main-container-page"><div widget="htmlLoader" data-bind="{localPwdRecoveryLoader}" class="module-in-main-container hidden container widget-container html-loader-container" child-module="localPwdRecovery" id="widget--6028885b-e134-b291-10a4-8014921af196"></div><div widget="htmlLoader" data-bind="{tpLoginLoader}" class="module-in-main-container hidden container widget-container html-loader-container" child-module="tpLogin" id="widget--51cc5d3d-e134-b291-10a4-801e50c53bdc"></div><div widget="htmlLoader" data-bind="{localLoginLoader}" class="module-in-main-container hidden container widget-container html-loader-container" child-module="localLogin" id="widget--7efe68d8-5134-b291-10a4-8018eccd3bb7" style="display: block;"><div view="{localLoginView}" class="login-card-wrap switch-btn-wrap"><div widget="panel" title-label="{LOGIN.LOCAL_LOGIN}" data-bind="mainPanel" class="login-card container widget-container panel-container form" id="widget--f7b688f6-6134-b291-10a4-816c903d5948"><div class="panel-wrap-before"></div><div class="panel-wrap"><div class="panel-header"><h3 class="panel-title"><span class="panel-title-icon"></span><span class="panel-title-text">Log In with Local Password</span><div class="panel-header-btn-container"></div></h3></div><div class="panel-content" style="display: block"><div class="panel-tbar-container"></div><div class="panel-content-container"><div widget="password" id="local-pwd-tb" data-bind="{localLoginControl.password}" label-field="{LOGIN.LOCAL_PASSWORD}" allow-visible="{true}" class="container widget-container text-container password-container visible error"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel text-fieldlabel password-fieldlabel">Local Password</label><span class="widget-separator">:</span></div></div><div class="widget-wrap-outer text-wrap-outer password-wrap-outer allow-visible"><div class="widget-wrap text-wrap password-wrap"><span class="text-wrap-before"></span><span class="text-wrap-inner password-wrap "><input type="password" class="text-text password-text password-hidden  " style="display: inline-block;"><input type="text" class="text-text password-text password-visible hidden " style="display: none;"></span><span class="text-wrap-after"></span></div><div class="allow-visible-wrapper"><span class="icon allow-visible-btn "></span><span class="text allow-visible-text">Show</span></div><div widget="errortip" error-cls="" id="local-pwd-tb_errortip" class="textbox-error-tips widget-error-tips show" style="display: block;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content">not allow to be empty</div></div></div></div></div><div widget="button" id="local-login-button" data-bind="{localLoginBtn}" class="full-line label-empty container widget-container button-container" text="{LOGIN.LOGIN_BUTTON_TEXT}"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel text-fieldlabel"></label></div></div><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><a href="javascript:void(0);" class="button-button" type="button" title="LOG IN"><span class="button-button-before"></span><span class="text button-text">LOG IN</span><span class="icon button-loading"></span><span class="button-moire"></span></a></div><div class="widget-tips textbox-tips " style="display: none;"><div class="content tips-content"></div></div><div widget="errortip" error-cls="" id="local-login-button_errortip" class="button-error-tips widget-error-tips" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content"></div></div></div></div></div><div class="transition-container forget-pwd-container"><a widget="transition" class="local-login-forget-pwd jump-label" id="widget--6a34b3ee-2134-b291-10a4-816a08968eaa">Forget Password?</a><div widget="paragraph" class="forget-pwd-p hidden container widget-container label-empty paragraph-container" data-bind="forgetPwdP" text="{LOGIN.loginPwdReset}" id="widget--37e911b3-3134-b291-10a4-816e71f22ab3"><div class="widget-wrap-outer paragraph-wrap-outer">With the router powered on, press and hold the Reset button until all the LEDs light up, then release it.</div></div></div><div widget="paragraph" id="local-login-no-internet-tips" data-bind="noInternetTips" class="error-paragraph container widget-container label-empty paragraph-container"><div class="widget-wrap-outer paragraph-wrap-outer"></div></div><div class="local-login-switch-to-tp-container"><a widget="transition" class="local-login-switch-to-tp jump-label hidden" data-bind="switchToTp" id="widget--c9ad356e-c134-b291-10a4-8160f26410a8" style="display: none;"><span class="icon"></span><span class="text">TP-Link ID</span></a></div></div><div class="panel-fbar-container"></div></div></div><div class="panel-wrap-after"></div></div></div></div></div><div class="login-bottom"><div widget="displaylabel" class="firmware-display-label elem-dir-ltr container widget-container displaylabel-container" label-field="{LOGIN.softVersion}" data-bind="{firmwareModel.firmwareVersion}" id="widget--e5c2b417-7134-b291-10a4-80139d36c807"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel text-fieldlabel">Firmware Version</label><span class="widget-separator">:</span></div></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap-before"></span><span class="text-wrap-display">1.4.3&nbsp;Build&nbsp;201022&nbsp;Rel.55840n(5553)</span><span class="text-wrap-after"></span></div><div widget="errortip" error-cls="" id="widget--e5c2b417-7134-b291-10a4-80139d36c807_errortip" class="displaylabel-error-tips widget-error-tips" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content"></div></div></div><div class="widget-tips textbox-tips " style="display: none;"><div class="content tips-content"></div></div></div></div><div widget="displaylabel" class="hardware-display-label elem-dir-ltr container widget-container displaylabel-container" label-field="{LOGIN.hardVersion}" data-bind="{firmwareModel.hardwareVersion}" id="widget--44717c11-0134-b291-10a4-80103b9f608d"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel text-fieldlabel">Hardware Version</label><span class="widget-separator">:</span></div></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap-before"></span><span class="text-wrap-display">Archer&nbsp;C24&nbsp;1.0</span><span class="text-wrap-after"></span></div><div widget="errortip" error-cls="" id="widget--44717c11-0134-b291-10a4-80103b9f608d_errortip" class="displaylabel-error-tips widget-error-tips" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content"></div></div></div><div class="widget-tips textbox-tips " style="display: none;"><div class="content tips-content"></div></div></div></div></div></div></div><div widget="simpleDom" class="login-secondary-container" data-bind="secondaryContainer" id="widget--8dc1dec9-2134-b291-10a4-8015791a3fee" style="display: none;"><div class="background"><div class="background-decorate"></div></div><div class="main-content"><div class="top"><div class="top-bar"><div class="inline-block logo"></div><div class="logo-separator">|</div><div widget="displaylabel" data-bind="{currentOperation}" class="page-title label-empty inline-block container widget-container displaylabel-container" id="widget--444f8e4b-e134-b291-10a4-801028ac14c5"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel text-fieldlabel"></label></div></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap-before"></span><span class="text-wrap-display"></span><span class="text-wrap-after"></span></div><div widget="errortip" error-cls="" id="widget--444f8e4b-e134-b291-10a4-801028ac14c5_errortip" class="displaylabel-error-tips widget-error-tips" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content"></div></div></div><div class="widget-tips textbox-tips " style="display: none;"><div class="content tips-content"></div></div></div></div></div><div widget="mobileTopBar" class="mobile-top-bar top-bar" id="widget--f314075f-9134-b291-10a4-801e404ba57f"><div><div class="logo inline-block"></div><div class="center-text inline-block hidden"></div><div class="top-bar-button-container"><div widget="button" icon-cls="menu" class="inline-block menu-button container widget-container button-container" id="menu-button"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel text-fieldlabel"></label></div></div><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><a href="javascript:void(0);" class="button-button" type="button" title=""><span class="button-button-before"></span><span class="icon button-icon menu"></span><span class="text button-text"></span><span class="icon button-loading"></span><span class="button-moire"></span></a></div><div class="widget-tips textbox-tips " style="display: none;"><div class="content tips-content"></div></div><div widget="errortip" error-cls="" id="menu-button_errortip" class="button-error-tips widget-error-tips" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content"></div></div></div></div></div><div widget="button" class="inline-block func-button container widget-container button-container" id="func-button" text="{COMMON.SAVE}"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel text-fieldlabel"></label></div></div><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><a href="javascript:void(0);" class="button-button" type="button" title="SAVE"><span class="button-button-before"></span><span class="text button-text">SAVE</span><span class="icon button-loading"></span><span class="button-moire"></span></a></div><div class="widget-tips textbox-tips " style="display: none;"><div class="content tips-content"></div></div><div widget="errortip" error-cls="" id="func-button_errortip" class="button-error-tips widget-error-tips" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content"></div></div></div></div></div></div></div></div></div><div class="page"><div class="page-inner"><div class="page-content-container"><div class="page-content su-grid-row"><div widget="htmlLoader" data-bind="{tpCloudLoader}" class="module-in-main-container hidden container widget-container html-loader-container" child-module="tpCloud" id="widget--5af18bfe-d134-b291-10a4-8018f2db17e3"></div></div></div></div></div><div widget="simpleDom" id="page-loading-sd" class="page-loading-sd" data-bind="{pageLoadingSd}"><div class="page-loading-wrapper"><div class="page-loading-inner"><div class="page-loading-gif"></div></div></div></div></div></div></div></div><div widget="loading" id="global-loading" class="loading-container" style="display: none;"><div class="loading-container-wrap"><div class="loading-container-inner"><div class="loading-waiting-icon"></div></div></div></div><div widget="simpleDom" id="global-splash" data-bind="splash" style="opacity: 1; display: none;"><div class="outer"><div class="center-part"><div class="logo img-container" widget="img" img-src="{logoIcon}" id="widget--38a669ec-7134-b291-10a4-7e49782e8cd6"><img src="login_files/logo-icon.jpg" alt=""></div><div widget="transition" class="text" id="widget--775432a1-1134-b291-10a4-7e448e2889da">Reliably Smart</div></div></div></div><div widget="toast" data-bind="globalNotice" id="widget--b24667c9-d134-b291-10a4-7e40d4d31af5" class="container widget-container notice-bar-container" style="display: none;"><div class="img-wrap"><span class="icon"></span></div><div class="text-wrap"><span class="text"></span></div><div class="close"></div></div><div widget="mask" id="global-trans-mask" class="global-trans-mask mask" data-bind="transparentMask" style="z-index: 998; display: none;"></div></div></div><script src="login_files/jquery.min.js"></script><script src="login_files/cryptoJS.min.js"></script><script src="login_files/tpEncrypt.new.js"></script><script src="login_files/url.js"></script><script src="login_files/char.js"></script><script src="login_files/language.js"></script><script>try{var unsupported=!1;if(new Function("return !-[1,];")()&&(unsupported=!0),!localStorage||!localStorage.setItem||unsupported)throw"unsupported browser"}catch(r){location.href="./error.html?t=faca32f1"}try{$.su.language=new $.su.Language}catch(r){console.error(r)}</script><script src="login_files/frame1.js"></script><script src="login_files/widgets.js"></script><script src="login_files/frame2.js"></script><script>$.su.isMobile()?$('<link type="text/css" href="themes/default/css/mobile.css?t=faca32f1" rel="stylesheet" />').insertAfter("#baseCss"):($('<link type="text/css" href="themes/default/css/mobile.css?t=faca32f1" rel="stylesheet" media="screen and (max-width:767px)"/>').insertAfter("#baseCss"),$('<link type="text/css" href="themes/default/css/total.css?t=faca32f1" rel="stylesheet" />').insertAfter("#baseCss"))</script><script>$(document).ready(function(n){App=new $.su.App,App.setContainer("main-container"),App.init().done(function(){App.launch()})})</script><div id="global-mask" class="mask" style="z-index: 998; display: none;"></div><div id="global-combobox-options" data-shown="_hidden_"></div><div id="global-tips-text" class="global-tips-text" data-shown="_hidden_"></div><div id="msg-boxs-container" class="msg-boxs-container"><div widget="msg" type="alert" id="global-error" data-bind="globalError" class="global-alert container widget-container msg-container alert" close-btn="{false}" style="display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-top-right"></div><div class="position-center-left"><div class="position-center-right"><div class="msg-wrap"><div class="msg-content-wrap"><h3 class="widget-title msg-title"><span class="msg-title-container"></span></h3><div class="widget-content msg-content-container"></div></div><div class="msg-btn-container"><div class="msg-btn-wrap"><div class="button-container inline-block"><div widget="button" id="global-error-btn-ok" class="btn-msg-ok container widget-container button-container label-empty" label-field="{false}" text="OK"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel text-fieldlabel">false</label></div></div><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><a href="javascript:void(0);" class="button-button" type="button" title="OK"><span class="button-button-before"></span><span class="text button-text">OK</span><span class="icon button-loading"></span><span class="button-moire"></span></a></div><div class="widget-tips textbox-tips " style="display: none;"><div class="content tips-content"></div></div><div widget="errortip" error-cls="" id="global-error-btn-ok_errortip" class="button-error-tips widget-error-tips" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content"></div></div></div></div></div></div></div></div></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div><div class="position-bottom-right"></div></div><div widget="msg" type="confirm" id="global-confirm" data-bind="{globalConfirm}" class="global-confirm container widget-container msg-container confirm" style="display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-top-right"></div><div class="position-center-left"><div class="position-center-right"><div class="msg-wrap"><a class="widget-close msg-close" href="javascript:void(0);"></a><div class="msg-content-wrap"><h3 class="widget-title msg-title"><span class="msg-title-container"></span></h3><div class="widget-content msg-content-container"></div></div><div class="msg-btn-container"><div class="msg-btn-wrap"><div class="button-container inline-block"><div widget="button" id="global-confirm-btn-no" class="btn-msg-no container widget-container button-container label-empty" label-field="{false}" text="NO"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel text-fieldlabel">false</label></div></div><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><a href="javascript:void(0);" class="button-button" type="button" title="NO"><span class="button-button-before"></span><span class="text button-text">NO</span><span class="icon button-loading"></span><span class="button-moire"></span></a></div><div class="widget-tips textbox-tips " style="display: none;"><div class="content tips-content"></div></div><div widget="errortip" error-cls="" id="global-confirm-btn-no_errortip" class="button-error-tips widget-error-tips" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content"></div></div></div></div></div></div><div class="button-container inline-block"><div widget="button" id="global-confirm-btn-ok" class="btn-msg-ok container widget-container button-container label-empty" label-field="{false}" text="YES"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel text-fieldlabel">false</label></div></div><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><a href="javascript:void(0);" class="button-button" type="button" title="YES"><span class="button-button-before"></span><span class="text button-text">YES</span><span class="icon button-loading"></span><span class="button-moire"></span></a></div><div class="widget-tips textbox-tips " style="display: none;"><div class="content tips-content"></div></div><div widget="errortip" error-cls="" id="global-confirm-btn-ok_errortip" class="button-error-tips widget-error-tips" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content"></div></div></div></div></div></div></div></div></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div><div class="position-bottom-right"></div></div><div widget="msg" type="alert" id="global-alert" data-bind="{globalAlert}" class="global-alert container widget-container msg-container alert" close-btn="{false}" style="display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-top-right"></div><div class="position-center-left"><div class="position-center-right"><div class="msg-wrap"><div class="msg-content-wrap"><h3 class="widget-title msg-title"><span class="msg-title-container"></span></h3><div class="widget-content msg-content-container"></div></div><div class="msg-btn-container"><div class="msg-btn-wrap"><div class="button-container inline-block"><div widget="button" id="global-alert-btn-ok" class="btn-msg-ok container widget-container button-container label-empty" label-field="{false}" text="OK"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel text-fieldlabel">false</label></div></div><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><a href="javascript:void(0);" class="button-button" type="button" title="OK"><span class="button-button-before"></span><span class="text button-text">OK</span><span class="icon button-loading"></span><span class="button-moire"></span></a></div><div class="widget-tips textbox-tips " style="display: none;"><div class="content tips-content"></div></div><div widget="errortip" error-cls="" id="global-alert-btn-ok_errortip" class="button-error-tips widget-error-tips" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content"></div></div></div></div></div></div></div></div></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div><div class="position-bottom-right"></div></div><div widget="msg" type="window" id="reboot-msg" data-bind="rebootMsg" class="global-progress z-index-1000-msg container widget-container msg-container window" close-btn="{false}" style="display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-top-right"></div><div class="position-center-left"><div class="position-center-right"><div class="msg-wrap"><div class="msg-content-wrap"><h3 class="widget-title msg-title"><span class="msg-title-container"></span></h3><div class="widget-content msg-content-container"><div widget="progressbar" id="reboot-progress" data-bind="rebootProgress" class="label-empty global-progress container widget-container progressbar-container progressbar-horizontal"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel processbar-fieldlabel"></label></div></div><div class="widget-wrap-outer progressbar-wrap-outer"><div class="widget-wrap progressbar-wrap"><div class="widget-wrap progressbar-content"><div class="progressbar-value"></div></div><div class="progressbar-text"><span class="progressbar-percentage">0%</span></div></div><div widget="errortip" error-cls="" id="reboot-progress_errortip" class="widget-error-tips" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content"></div></div></div><div class="widget-tips textbox-tips " style="display: none;"><div class="content tips-content"></div></div></div></div><div widget="paragraph" id="reboot-hint" class="global-progress-under-text container widget-container label-empty paragraph-container" text="{OPERATION_MODE.REBOOTING}"><div class="widget-wrap-outer paragraph-wrap-outer">Rebooting...</div></div></div></div></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div><div class="position-bottom-right"></div></div><div widget="msg" type="window" id="loading-msg" data-bind="loadingMsg" class="global-progress z-index-1200-msg container widget-container msg-container window" close-btn="{false}" style="display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-top-right"></div><div class="position-center-left"><div class="position-center-right"><div class="msg-wrap"><div class="msg-content-wrap"><h3 class="widget-title msg-title"><span class="msg-title-container"></span></h3><div class="widget-content msg-content-container"><div widget="progressbar" data-bind="loadingProgress" class="label-empty global-progress container widget-container progressbar-container progressbar-horizontal infinite-progress circle-progress" circle="true" infinite="true" id="widget--e3446093-7134-b291-10a4-7e4ef7e06b85"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel processbar-fieldlabel"></label></div></div><div class="widget-wrap-outer progressbar-wrap-outer"><div class="widget-wrap progressbar-wrap"><div class="widget-wrap progressbar-content"><div class="progressbar-value"></div></div><div class="progressbar-text"><span class="progressbar-percentage">0%</span></div></div><div widget="errortip" error-cls="" id="widget--e3446093-7134-b291-10a4-7e4ef7e06b85_errortip" class="widget-error-tips" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content"></div></div></div><div class="widget-tips textbox-tips " style="display: none;"><div class="content tips-content"></div></div></div></div><div widget="paragraph" data-bind="loadingText" class="global-progress-under-text container widget-container label-empty paragraph-container" text="" id="widget--da22b19d-3134-b291-10a4-7e4ee396f015"><div class="widget-wrap-outer paragraph-wrap-outer"></div></div></div></div></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div><div class="position-bottom-right"></div></div><div widget="msg" type="window" data-bind="{progressbarWrap}" class="global-progress container widget-container msg-container window" close-btn="{false}" id="widget--aceec5eb-7134-b291-10a4-7e45f25dec9c" style="display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-top-right"></div><div class="position-center-left"><div class="position-center-right"><div class="msg-wrap"><div class="msg-content-wrap"><h3 class="widget-title msg-title"><span class="msg-title-container"></span></h3><div class="widget-content msg-content-container"><div widget="progressbar" data-bind="{proBar}" class="label-empty global-progress container widget-container progressbar-container progressbar-horizontal" label-field="{false}" id="widget--200b8146-e134-b291-10a4-7e42b8396aca"><div class="widget-fieldlabel-wrap "><div class="widget-fieldlabel-inner"><label class="widget-fieldlabel processbar-fieldlabel">false</label></div></div><div class="widget-wrap-outer progressbar-wrap-outer"><div class="widget-wrap progressbar-wrap"><div class="widget-wrap progressbar-content"><div class="progressbar-value"></div></div><div class="progressbar-text"><span class="progressbar-percentage">0%</span></div></div><div widget="errortip" error-cls="" id="widget--200b8146-e134-b291-10a4-7e42b8396aca_errortip" class="widget-error-tips" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><span class="widget-error-tips-delta"></span><div class="content error-tips-content"></div></div></div><div class="widget-tips textbox-tips " style="display: none;"><div class="content tips-content"></div></div></div></div><div widget="paragraph" data-bind="{proBarTitle}" class="global-progress-under-text container widget-container label-empty paragraph-container" label-field="{false}" id="widget--49522dee-7134-b291-10a4-7e49cca9d2cc"><div class="widget-wrap-outer paragraph-wrap-outer"></div></div></div></div></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div><div class="position-bottom-right"></div></div></div></body></html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0"
+    />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="version" content="v202009161150" />
+    <link
+      rel="shortcut icon"
+      href="http://192.168.100.22/favicon.ico?t=faca32f1"
+    />
+    <link href="login_files/perfect-scrollbar.css" rel="stylesheet" />
+    <link id="baseCss" href="login_files/base.css" rel="stylesheet" />
+    <link type="text/css" href="login_files/total.css" rel="stylesheet" />
+    <link
+      type="text/css"
+      href="login_files/mobile.css"
+      rel="stylesheet"
+      media="screen and (max-width:767px)"
+    />
+    <title id="title">login</title>
+    <noscript
+      ><meta http-equiv="refresh" content="0; url=error.html?t=faca32f1"
+    /></noscript>
+    <script
+      id="lan-js"
+      type="text/javascript"
+      src="login_files/lan.js"
+    ></script>
+    <link
+      id="lan-css"
+      type="text/css"
+      rel="stylesheet"
+      href="login_files/lan.css"
+    />
+    <script type="text/javascript" src="login_files/language_002.js"></script>
+  </head>
+  <body class="vsc-initialized">
+    <div
+      id="main-container"
+      class="container widget-container html-loader-container"
+    >
+      <div id="main-view" view="{main}">
+        <div
+          widget="htmlLoader"
+          id="basic-module-container"
+          data-bind="basicModuleLoader"
+          class="container widget-container html-loader-container"
+        >
+          <div view="{loginView}" class="login-view">
+            <div
+              widget="simpleDom"
+              class="login-main-container"
+              data-bind="mainContainer"
+              id="widget--08e13a1e-e134-b291-10a4-801a6dffa9ae"
+            >
+              <div class="login-background"></div>
+              <div class="main-content login-main-content">
+                <div class="top">
+                  <div class="top-bar">
+                    <div
+                      class="inline-block logo img-container"
+                      widget="img"
+                      img-src="{logoIcon}"
+                      id="widget--32c22a2e-c134-b291-10a4-801d294030be"
+                    >
+                      <img src="login_files/logo-icon.jpg" alt="" />
+                    </div>
+                    <div class="logo-separator">|</div>
+                    <div
+                      class="page-title inline-block container widget-container displaylabel-container"
+                      widget="displaylabel"
+                      data-bind="{productName}"
+                      id="widget--2530ea38-2134-b291-10a4-8013ca2327c2"
+                    >
+                      <div class="widget-fieldlabel-wrap">
+                        <div class="widget-fieldlabel-inner">
+                          <label
+                            class="widget-fieldlabel text-fieldlabel"
+                          ></label>
+                        </div>
+                      </div>
+                      <div class="widget-wrap-outer text-wrap-outer">
+                        <div class="widget-wrap text-wrap">
+                          <span class="text-wrap-before"></span
+                          ><span class="text-wrap-display">Archer&nbsp;C24</span
+                          ><span class="text-wrap-after"></span>
+                        </div>
+                        <div
+                          widget="errortip"
+                          error-cls=""
+                          id="widget--2530ea38-2134-b291-10a4-8013ca2327c2_errortip"
+                          class="displaylabel-error-tips widget-error-tips"
+                          style="display: none"
+                        >
+                          <span class="widget-error-tips-delta"></span>
+                          <div class="widget-error-tips-wrap">
+                            <span class="widget-error-tips-delta"></span>
+                            <div class="content error-tips-content"></div>
+                          </div>
+                        </div>
+                        <div
+                          class="widget-tips textbox-tips"
+                          style="display: none"
+                        >
+                          <div class="content tips-content"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div></div>
+                <div class="login-main-container-page">
+                  <div
+                    widget="htmlLoader"
+                    data-bind="{localPwdRecoveryLoader}"
+                    class="module-in-main-container hidden container widget-container html-loader-container"
+                    child-module="localPwdRecovery"
+                    id="widget--6028885b-e134-b291-10a4-8014921af196"
+                  ></div>
+                  <div
+                    widget="htmlLoader"
+                    data-bind="{tpLoginLoader}"
+                    class="module-in-main-container hidden container widget-container html-loader-container"
+                    child-module="tpLogin"
+                    id="widget--51cc5d3d-e134-b291-10a4-801e50c53bdc"
+                  ></div>
+                  <div
+                    widget="htmlLoader"
+                    data-bind="{localLoginLoader}"
+                    class="module-in-main-container hidden container widget-container html-loader-container"
+                    child-module="localLogin"
+                    id="widget--7efe68d8-5134-b291-10a4-8018eccd3bb7"
+                    style="display: block"
+                  >
+                    <div
+                      view="{localLoginView}"
+                      class="login-card-wrap switch-btn-wrap"
+                    >
+                      <div
+                        widget="panel"
+                        title-label="{LOGIN.LOCAL_LOGIN}"
+                        data-bind="mainPanel"
+                        class="login-card container widget-container panel-container form"
+                        id="widget--f7b688f6-6134-b291-10a4-816c903d5948"
+                      >
+                        <div class="panel-wrap-before"></div>
+                        <div class="panel-wrap">
+                          <div class="panel-header">
+                            <h3 class="panel-title">
+                              <span class="panel-title-icon"></span
+                              ><span class="panel-title-text"
+                                >Log In with Local Password</span
+                              >
+                              <div class="panel-header-btn-container"></div>
+                            </h3>
+                          </div>
+                          <div class="panel-content" style="display: block">
+                            <div class="panel-tbar-container"></div>
+                            <div class="panel-content-container">
+                              <div
+                                widget="password"
+                                id="local-pwd-tb"
+                                data-bind="{localLoginControl.password}"
+                                label-field="{LOGIN.LOCAL_PASSWORD}"
+                                allow-visible="{true}"
+                                class="container widget-container text-container password-container visible error"
+                              >
+                                <div class="widget-fieldlabel-wrap">
+                                  <div class="widget-fieldlabel-inner">
+                                    <label
+                                      class="widget-fieldlabel text-fieldlabel password-fieldlabel"
+                                      >Local Password</label
+                                    ><span class="widget-separator">:</span>
+                                  </div>
+                                </div>
+                                <div
+                                  class="widget-wrap-outer text-wrap-outer password-wrap-outer allow-visible"
+                                >
+                                  <div
+                                    class="widget-wrap text-wrap password-wrap"
+                                  >
+                                    <span class="text-wrap-before"></span
+                                    ><span class="text-wrap-inner password-wrap"
+                                      ><input
+                                        type="password"
+                                        class="text-text password-text password-hidden"
+                                        style="display: inline-block" /><input
+                                        type="text"
+                                        class="text-text password-text password-visible hidden"
+                                        style="display: none" /></span
+                                    ><span class="text-wrap-after"></span>
+                                  </div>
+                                  <div class="allow-visible-wrapper">
+                                    <span class="icon allow-visible-btn"></span
+                                    ><span class="text allow-visible-text"
+                                      >Show</span
+                                    >
+                                  </div>
+                                  <div
+                                    widget="errortip"
+                                    error-cls=""
+                                    id="local-pwd-tb_errortip"
+                                    class="textbox-error-tips widget-error-tips show"
+                                    style="display: block"
+                                  >
+                                    <span
+                                      class="widget-error-tips-delta"
+                                    ></span>
+                                    <div class="widget-error-tips-wrap">
+                                      <span
+                                        class="widget-error-tips-delta"
+                                      ></span>
+                                      <div class="content error-tips-content">
+                                        not allow to be empty
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                widget="button"
+                                id="local-login-button"
+                                data-bind="{localLoginBtn}"
+                                class="full-line label-empty container widget-container button-container"
+                                text="{LOGIN.LOGIN_BUTTON_TEXT}"
+                              >
+                                <div class="widget-fieldlabel-wrap">
+                                  <div class="widget-fieldlabel-inner">
+                                    <label
+                                      class="widget-fieldlabel text-fieldlabel"
+                                    ></label>
+                                  </div>
+                                </div>
+                                <div
+                                  class="widget-wrap-outer button-wrap-outer"
+                                >
+                                  <div class="widget-wrap button-wrap">
+                                    <a
+                                      href="javascript:void(0);"
+                                      class="button-button"
+                                      type="button"
+                                      title="LOG IN"
+                                      ><span class="button-button-before"></span
+                                      ><span class="text button-text"
+                                        >LOG IN</span
+                                      ><span class="icon button-loading"></span
+                                      ><span class="button-moire"></span
+                                    ></a>
+                                  </div>
+                                  <div
+                                    class="widget-tips textbox-tips"
+                                    style="display: none"
+                                  >
+                                    <div class="content tips-content"></div>
+                                  </div>
+                                  <div
+                                    widget="errortip"
+                                    error-cls=""
+                                    id="local-login-button_errortip"
+                                    class="button-error-tips widget-error-tips"
+                                    style="display: none"
+                                  >
+                                    <span
+                                      class="widget-error-tips-delta"
+                                    ></span>
+                                    <div class="widget-error-tips-wrap">
+                                      <span
+                                        class="widget-error-tips-delta"
+                                      ></span>
+                                      <div
+                                        class="content error-tips-content"
+                                      ></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="transition-container forget-pwd-container"
+                              >
+                                <a
+                                  widget="transition"
+                                  class="local-login-forget-pwd jump-label"
+                                  id="widget--6a34b3ee-2134-b291-10a4-816a08968eaa"
+                                  >Forget Password?</a
+                                >
+                                <div
+                                  widget="paragraph"
+                                  class="forget-pwd-p hidden container widget-container label-empty paragraph-container"
+                                  data-bind="forgetPwdP"
+                                  text="{LOGIN.loginPwdReset}"
+                                  id="widget--37e911b3-3134-b291-10a4-816e71f22ab3"
+                                >
+                                  <div
+                                    class="widget-wrap-outer paragraph-wrap-outer"
+                                  >
+                                    With the router powered on, press and hold
+                                    the Reset button until all the LEDs light
+                                    up, then release it.
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                widget="paragraph"
+                                id="local-login-no-internet-tips"
+                                data-bind="noInternetTips"
+                                class="error-paragraph container widget-container label-empty paragraph-container"
+                              >
+                                <div
+                                  class="widget-wrap-outer paragraph-wrap-outer"
+                                ></div>
+                              </div>
+                              <div class="local-login-switch-to-tp-container">
+                                <a
+                                  widget="transition"
+                                  class="local-login-switch-to-tp jump-label hidden"
+                                  data-bind="switchToTp"
+                                  id="widget--c9ad356e-c134-b291-10a4-8160f26410a8"
+                                  style="display: none"
+                                  ><span class="icon"></span
+                                  ><span class="text">TP-Link ID</span></a
+                                >
+                              </div>
+                            </div>
+                            <div class="panel-fbar-container"></div>
+                          </div>
+                        </div>
+                        <div class="panel-wrap-after"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="login-bottom">
+                  <div
+                    widget="displaylabel"
+                    class="firmware-display-label elem-dir-ltr container widget-container displaylabel-container"
+                    label-field="{LOGIN.softVersion}"
+                    data-bind="{firmwareModel.firmwareVersion}"
+                    id="widget--e5c2b417-7134-b291-10a4-80139d36c807"
+                  >
+                    <div class="widget-fieldlabel-wrap">
+                      <div class="widget-fieldlabel-inner">
+                        <label class="widget-fieldlabel text-fieldlabel"
+                          >Firmware Version</label
+                        ><span class="widget-separator">:</span>
+                      </div>
+                    </div>
+                    <div class="widget-wrap-outer text-wrap-outer">
+                      <div class="widget-wrap text-wrap">
+                        <span class="text-wrap-before"></span
+                        ><span class="text-wrap-display"
+                          >1.4.3&nbsp;Build&nbsp;201022&nbsp;Rel.55840n(5553)</span
+                        ><span class="text-wrap-after"></span>
+                      </div>
+                      <div
+                        widget="errortip"
+                        error-cls=""
+                        id="widget--e5c2b417-7134-b291-10a4-80139d36c807_errortip"
+                        class="displaylabel-error-tips widget-error-tips"
+                        style="display: none"
+                      >
+                        <span class="widget-error-tips-delta"></span>
+                        <div class="widget-error-tips-wrap">
+                          <span class="widget-error-tips-delta"></span>
+                          <div class="content error-tips-content"></div>
+                        </div>
+                      </div>
+                      <div
+                        class="widget-tips textbox-tips"
+                        style="display: none"
+                      >
+                        <div class="content tips-content"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    widget="displaylabel"
+                    class="hardware-display-label elem-dir-ltr container widget-container displaylabel-container"
+                    label-field="{LOGIN.hardVersion}"
+                    data-bind="{firmwareModel.hardwareVersion}"
+                    id="widget--44717c11-0134-b291-10a4-80103b9f608d"
+                  >
+                    <div class="widget-fieldlabel-wrap">
+                      <div class="widget-fieldlabel-inner">
+                        <label class="widget-fieldlabel text-fieldlabel"
+                          >Hardware Version</label
+                        ><span class="widget-separator">:</span>
+                      </div>
+                    </div>
+                    <div class="widget-wrap-outer text-wrap-outer">
+                      <div class="widget-wrap text-wrap">
+                        <span class="text-wrap-before"></span
+                        ><span class="text-wrap-display"
+                          >Archer&nbsp;C24&nbsp;1.0</span
+                        ><span class="text-wrap-after"></span>
+                      </div>
+                      <div
+                        widget="errortip"
+                        error-cls=""
+                        id="widget--44717c11-0134-b291-10a4-80103b9f608d_errortip"
+                        class="displaylabel-error-tips widget-error-tips"
+                        style="display: none"
+                      >
+                        <span class="widget-error-tips-delta"></span>
+                        <div class="widget-error-tips-wrap">
+                          <span class="widget-error-tips-delta"></span>
+                          <div class="content error-tips-content"></div>
+                        </div>
+                      </div>
+                      <div
+                        class="widget-tips textbox-tips"
+                        style="display: none"
+                      >
+                        <div class="content tips-content"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              widget="simpleDom"
+              class="login-secondary-container"
+              data-bind="secondaryContainer"
+              id="widget--8dc1dec9-2134-b291-10a4-8015791a3fee"
+              style="display: none"
+            >
+              <div class="background">
+                <div class="background-decorate"></div>
+              </div>
+              <div class="main-content">
+                <div class="top">
+                  <div class="top-bar">
+                    <div class="inline-block logo"></div>
+                    <div class="logo-separator">|</div>
+                    <div
+                      widget="displaylabel"
+                      data-bind="{currentOperation}"
+                      class="page-title label-empty inline-block container widget-container displaylabel-container"
+                      id="widget--444f8e4b-e134-b291-10a4-801028ac14c5"
+                    >
+                      <div class="widget-fieldlabel-wrap">
+                        <div class="widget-fieldlabel-inner">
+                          <label
+                            class="widget-fieldlabel text-fieldlabel"
+                          ></label>
+                        </div>
+                      </div>
+                      <div class="widget-wrap-outer text-wrap-outer">
+                        <div class="widget-wrap text-wrap">
+                          <span class="text-wrap-before"></span
+                          ><span class="text-wrap-display"></span
+                          ><span class="text-wrap-after"></span>
+                        </div>
+                        <div
+                          widget="errortip"
+                          error-cls=""
+                          id="widget--444f8e4b-e134-b291-10a4-801028ac14c5_errortip"
+                          class="displaylabel-error-tips widget-error-tips"
+                          style="display: none"
+                        >
+                          <span class="widget-error-tips-delta"></span>
+                          <div class="widget-error-tips-wrap">
+                            <span class="widget-error-tips-delta"></span>
+                            <div class="content error-tips-content"></div>
+                          </div>
+                        </div>
+                        <div
+                          class="widget-tips textbox-tips"
+                          style="display: none"
+                        >
+                          <div class="content tips-content"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    widget="mobileTopBar"
+                    class="mobile-top-bar top-bar"
+                    id="widget--f314075f-9134-b291-10a4-801e404ba57f"
+                  >
+                    <div>
+                      <div class="logo inline-block"></div>
+                      <div class="center-text inline-block hidden"></div>
+                      <div class="top-bar-button-container">
+                        <div
+                          widget="button"
+                          icon-cls="menu"
+                          class="inline-block menu-button container widget-container button-container"
+                          id="menu-button"
+                        >
+                          <div class="widget-fieldlabel-wrap">
+                            <div class="widget-fieldlabel-inner">
+                              <label
+                                class="widget-fieldlabel text-fieldlabel"
+                              ></label>
+                            </div>
+                          </div>
+                          <div class="widget-wrap-outer button-wrap-outer">
+                            <div class="widget-wrap button-wrap">
+                              <a
+                                href="javascript:void(0);"
+                                class="button-button"
+                                type="button"
+                                title=""
+                                ><span class="button-button-before"></span
+                                ><span class="icon button-icon menu"></span
+                                ><span class="text button-text"></span
+                                ><span class="icon button-loading"></span
+                                ><span class="button-moire"></span
+                              ></a>
+                            </div>
+                            <div
+                              class="widget-tips textbox-tips"
+                              style="display: none"
+                            >
+                              <div class="content tips-content"></div>
+                            </div>
+                            <div
+                              widget="errortip"
+                              error-cls=""
+                              id="menu-button_errortip"
+                              class="button-error-tips widget-error-tips"
+                              style="display: none"
+                            >
+                              <span class="widget-error-tips-delta"></span>
+                              <div class="widget-error-tips-wrap">
+                                <span class="widget-error-tips-delta"></span>
+                                <div class="content error-tips-content"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          widget="button"
+                          class="inline-block func-button container widget-container button-container"
+                          id="func-button"
+                          text="{COMMON.SAVE}"
+                        >
+                          <div class="widget-fieldlabel-wrap">
+                            <div class="widget-fieldlabel-inner">
+                              <label
+                                class="widget-fieldlabel text-fieldlabel"
+                              ></label>
+                            </div>
+                          </div>
+                          <div class="widget-wrap-outer button-wrap-outer">
+                            <div class="widget-wrap button-wrap">
+                              <a
+                                href="javascript:void(0);"
+                                class="button-button"
+                                type="button"
+                                title="SAVE"
+                                ><span class="button-button-before"></span
+                                ><span class="text button-text">SAVE</span
+                                ><span class="icon button-loading"></span
+                                ><span class="button-moire"></span
+                              ></a>
+                            </div>
+                            <div
+                              class="widget-tips textbox-tips"
+                              style="display: none"
+                            >
+                              <div class="content tips-content"></div>
+                            </div>
+                            <div
+                              widget="errortip"
+                              error-cls=""
+                              id="func-button_errortip"
+                              class="button-error-tips widget-error-tips"
+                              style="display: none"
+                            >
+                              <span class="widget-error-tips-delta"></span>
+                              <div class="widget-error-tips-wrap">
+                                <span class="widget-error-tips-delta"></span>
+                                <div class="content error-tips-content"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page">
+                  <div class="page-inner">
+                    <div class="page-content-container">
+                      <div class="page-content su-grid-row">
+                        <div
+                          widget="htmlLoader"
+                          data-bind="{tpCloudLoader}"
+                          class="module-in-main-container hidden container widget-container html-loader-container"
+                          child-module="tpCloud"
+                          id="widget--5af18bfe-d134-b291-10a4-8018f2db17e3"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  widget="simpleDom"
+                  id="page-loading-sd"
+                  class="page-loading-sd"
+                  data-bind="{pageLoadingSd}"
+                >
+                  <div class="page-loading-wrapper">
+                    <div class="page-loading-inner">
+                      <div class="page-loading-gif"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          widget="loading"
+          id="global-loading"
+          class="loading-container"
+          style="display: none"
+        >
+          <div class="loading-container-wrap">
+            <div class="loading-container-inner">
+              <div class="loading-waiting-icon"></div>
+            </div>
+          </div>
+        </div>
+        <div
+          widget="simpleDom"
+          id="global-splash"
+          data-bind="splash"
+          style="opacity: 1; display: none"
+        >
+          <div class="outer">
+            <div class="center-part">
+              <div
+                class="logo img-container"
+                widget="img"
+                img-src="{logoIcon}"
+                id="widget--38a669ec-7134-b291-10a4-7e49782e8cd6"
+              >
+                <img src="login_files/logo-icon.jpg" alt="" />
+              </div>
+              <div
+                widget="transition"
+                class="text"
+                id="widget--775432a1-1134-b291-10a4-7e448e2889da"
+              >
+                Reliably Smart
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          widget="toast"
+          data-bind="globalNotice"
+          id="widget--b24667c9-d134-b291-10a4-7e40d4d31af5"
+          class="container widget-container notice-bar-container"
+          style="display: none"
+        >
+          <div class="img-wrap"><span class="icon"></span></div>
+          <div class="text-wrap"><span class="text"></span></div>
+          <div class="close"></div>
+        </div>
+        <div
+          widget="mask"
+          id="global-trans-mask"
+          class="global-trans-mask mask"
+          data-bind="transparentMask"
+          style="z-index: 998; display: none"
+        ></div>
+      </div>
+    </div>
+    <script src="login_files/jquery.min.js"></script>
+    <script src="login_files/cryptoJS.min.js"></script>
+    <script src="login_files/tpEncrypt.new.js"></script>
+    <script src="login_files/url.js"></script>
+    <script src="login_files/char.js"></script>
+    <script src="login_files/language.js"></script>
+    <script>
+      try {
+        var unsupported = !1;
+        if (
+          (new Function("return !-[1,];")() && (unsupported = !0),
+          !localStorage || !localStorage.setItem || unsupported)
+        )
+          throw "unsupported browser";
+      } catch (r) {
+        location.href = "./error.html?t=faca32f1";
+      }
+      try {
+        $.su.language = new $.su.Language();
+      } catch (r) {
+        console.error(r);
+      }
+    </script>
+    <script src="login_files/frame1.js"></script>
+    <script src="login_files/widgets.js"></script>
+    <script src="login_files/frame2.js"></script>
+    <script>
+      $.su.isMobile()
+        ? $(
+            '<link type="text/css" href="themes/default/css/mobile.css?t=faca32f1" rel="stylesheet" />'
+          ).insertAfter("#baseCss")
+        : ($(
+            '<link type="text/css" href="themes/default/css/mobile.css?t=faca32f1" rel="stylesheet" media="screen and (max-width:767px)"/>'
+          ).insertAfter("#baseCss"),
+          $(
+            '<link type="text/css" href="themes/default/css/total.css?t=faca32f1" rel="stylesheet" />'
+          ).insertAfter("#baseCss"));
+    </script>
+    <script>
+      $(document).ready(function (n) {
+        (App = new $.su.App()),
+          App.setContainer("main-container"),
+          App.init().done(function () {
+            App.launch();
+          });
+      });
+    </script>
+    <div
+      id="global-mask"
+      class="mask"
+      style="z-index: 998; display: none"
+    ></div>
+    <div id="global-combobox-options" data-shown="_hidden_"></div>
+    <div
+      id="global-tips-text"
+      class="global-tips-text"
+      data-shown="_hidden_"
+    ></div>
+    <div id="msg-boxs-container" class="msg-boxs-container">
+      <div
+        widget="msg"
+        type="alert"
+        id="global-error"
+        data-bind="globalError"
+        class="global-alert container widget-container msg-container alert"
+        close-btn="{false}"
+        style="display: none"
+      >
+        <div class="position-top-left"></div>
+        <div class="position-top-center"></div>
+        <div class="position-top-right"></div>
+        <div class="position-center-left">
+          <div class="position-center-right">
+            <div class="msg-wrap">
+              <div class="msg-content-wrap">
+                <h3 class="widget-title msg-title">
+                  <span class="msg-title-container"></span>
+                </h3>
+                <div class="widget-content msg-content-container"></div>
+              </div>
+              <div class="msg-btn-container">
+                <div class="msg-btn-wrap">
+                  <div class="button-container inline-block">
+                    <div
+                      widget="button"
+                      id="global-error-btn-ok"
+                      class="btn-msg-ok container widget-container button-container label-empty"
+                      label-field="{false}"
+                      text="OK"
+                    >
+                      <div class="widget-fieldlabel-wrap">
+                        <div class="widget-fieldlabel-inner">
+                          <label class="widget-fieldlabel text-fieldlabel"
+                            >false</label
+                          >
+                        </div>
+                      </div>
+                      <div class="widget-wrap-outer button-wrap-outer">
+                        <div class="widget-wrap button-wrap">
+                          <a
+                            href="javascript:void(0);"
+                            class="button-button"
+                            type="button"
+                            title="OK"
+                            ><span class="button-button-before"></span
+                            ><span class="text button-text">OK</span
+                            ><span class="icon button-loading"></span
+                            ><span class="button-moire"></span
+                          ></a>
+                        </div>
+                        <div
+                          class="widget-tips textbox-tips"
+                          style="display: none"
+                        >
+                          <div class="content tips-content"></div>
+                        </div>
+                        <div
+                          widget="errortip"
+                          error-cls=""
+                          id="global-error-btn-ok_errortip"
+                          class="button-error-tips widget-error-tips"
+                          style="display: none"
+                        >
+                          <span class="widget-error-tips-delta"></span>
+                          <div class="widget-error-tips-wrap">
+                            <span class="widget-error-tips-delta"></span>
+                            <div class="content error-tips-content"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position-bottom-left"></div>
+        <div class="position-bottom-center"></div>
+        <div class="position-bottom-right"></div>
+      </div>
+      <div
+        widget="msg"
+        type="confirm"
+        id="global-confirm"
+        data-bind="{globalConfirm}"
+        class="global-confirm container widget-container msg-container confirm"
+        style="display: none"
+      >
+        <div class="position-top-left"></div>
+        <div class="position-top-center"></div>
+        <div class="position-top-right"></div>
+        <div class="position-center-left">
+          <div class="position-center-right">
+            <div class="msg-wrap">
+              <a class="widget-close msg-close" href="javascript:void(0);"></a>
+              <div class="msg-content-wrap">
+                <h3 class="widget-title msg-title">
+                  <span class="msg-title-container"></span>
+                </h3>
+                <div class="widget-content msg-content-container"></div>
+              </div>
+              <div class="msg-btn-container">
+                <div class="msg-btn-wrap">
+                  <div class="button-container inline-block">
+                    <div
+                      widget="button"
+                      id="global-confirm-btn-no"
+                      class="btn-msg-no container widget-container button-container label-empty"
+                      label-field="{false}"
+                      text="NO"
+                    >
+                      <div class="widget-fieldlabel-wrap">
+                        <div class="widget-fieldlabel-inner">
+                          <label class="widget-fieldlabel text-fieldlabel"
+                            >false</label
+                          >
+                        </div>
+                      </div>
+                      <div class="widget-wrap-outer button-wrap-outer">
+                        <div class="widget-wrap button-wrap">
+                          <a
+                            href="javascript:void(0);"
+                            class="button-button"
+                            type="button"
+                            title="NO"
+                            ><span class="button-button-before"></span
+                            ><span class="text button-text">NO</span
+                            ><span class="icon button-loading"></span
+                            ><span class="button-moire"></span
+                          ></a>
+                        </div>
+                        <div
+                          class="widget-tips textbox-tips"
+                          style="display: none"
+                        >
+                          <div class="content tips-content"></div>
+                        </div>
+                        <div
+                          widget="errortip"
+                          error-cls=""
+                          id="global-confirm-btn-no_errortip"
+                          class="button-error-tips widget-error-tips"
+                          style="display: none"
+                        >
+                          <span class="widget-error-tips-delta"></span>
+                          <div class="widget-error-tips-wrap">
+                            <span class="widget-error-tips-delta"></span>
+                            <div class="content error-tips-content"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-container inline-block">
+                    <div
+                      widget="button"
+                      id="global-confirm-btn-ok"
+                      class="btn-msg-ok container widget-container button-container label-empty"
+                      label-field="{false}"
+                      text="YES"
+                    >
+                      <div class="widget-fieldlabel-wrap">
+                        <div class="widget-fieldlabel-inner">
+                          <label class="widget-fieldlabel text-fieldlabel"
+                            >false</label
+                          >
+                        </div>
+                      </div>
+                      <div class="widget-wrap-outer button-wrap-outer">
+                        <div class="widget-wrap button-wrap">
+                          <a
+                            href="javascript:void(0);"
+                            class="button-button"
+                            type="button"
+                            title="YES"
+                            ><span class="button-button-before"></span
+                            ><span class="text button-text">YES</span
+                            ><span class="icon button-loading"></span
+                            ><span class="button-moire"></span
+                          ></a>
+                        </div>
+                        <div
+                          class="widget-tips textbox-tips"
+                          style="display: none"
+                        >
+                          <div class="content tips-content"></div>
+                        </div>
+                        <div
+                          widget="errortip"
+                          error-cls=""
+                          id="global-confirm-btn-ok_errortip"
+                          class="button-error-tips widget-error-tips"
+                          style="display: none"
+                        >
+                          <span class="widget-error-tips-delta"></span>
+                          <div class="widget-error-tips-wrap">
+                            <span class="widget-error-tips-delta"></span>
+                            <div class="content error-tips-content"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position-bottom-left"></div>
+        <div class="position-bottom-center"></div>
+        <div class="position-bottom-right"></div>
+      </div>
+      <div
+        widget="msg"
+        type="alert"
+        id="global-alert"
+        data-bind="{globalAlert}"
+        class="global-alert container widget-container msg-container alert"
+        close-btn="{false}"
+        style="display: none"
+      >
+        <div class="position-top-left"></div>
+        <div class="position-top-center"></div>
+        <div class="position-top-right"></div>
+        <div class="position-center-left">
+          <div class="position-center-right">
+            <div class="msg-wrap">
+              <div class="msg-content-wrap">
+                <h3 class="widget-title msg-title">
+                  <span class="msg-title-container"></span>
+                </h3>
+                <div class="widget-content msg-content-container"></div>
+              </div>
+              <div class="msg-btn-container">
+                <div class="msg-btn-wrap">
+                  <div class="button-container inline-block">
+                    <div
+                      widget="button"
+                      id="global-alert-btn-ok"
+                      class="btn-msg-ok container widget-container button-container label-empty"
+                      label-field="{false}"
+                      text="OK"
+                    >
+                      <div class="widget-fieldlabel-wrap">
+                        <div class="widget-fieldlabel-inner">
+                          <label class="widget-fieldlabel text-fieldlabel"
+                            >false</label
+                          >
+                        </div>
+                      </div>
+                      <div class="widget-wrap-outer button-wrap-outer">
+                        <div class="widget-wrap button-wrap">
+                          <a
+                            href="javascript:void(0);"
+                            class="button-button"
+                            type="button"
+                            title="OK"
+                            ><span class="button-button-before"></span
+                            ><span class="text button-text">OK</span
+                            ><span class="icon button-loading"></span
+                            ><span class="button-moire"></span
+                          ></a>
+                        </div>
+                        <div
+                          class="widget-tips textbox-tips"
+                          style="display: none"
+                        >
+                          <div class="content tips-content"></div>
+                        </div>
+                        <div
+                          widget="errortip"
+                          error-cls=""
+                          id="global-alert-btn-ok_errortip"
+                          class="button-error-tips widget-error-tips"
+                          style="display: none"
+                        >
+                          <span class="widget-error-tips-delta"></span>
+                          <div class="widget-error-tips-wrap">
+                            <span class="widget-error-tips-delta"></span>
+                            <div class="content error-tips-content"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position-bottom-left"></div>
+        <div class="position-bottom-center"></div>
+        <div class="position-bottom-right"></div>
+      </div>
+      <div
+        widget="msg"
+        type="window"
+        id="reboot-msg"
+        data-bind="rebootMsg"
+        class="global-progress z-index-1000-msg container widget-container msg-container window"
+        close-btn="{false}"
+        style="display: none"
+      >
+        <div class="position-top-left"></div>
+        <div class="position-top-center"></div>
+        <div class="position-top-right"></div>
+        <div class="position-center-left">
+          <div class="position-center-right">
+            <div class="msg-wrap">
+              <div class="msg-content-wrap">
+                <h3 class="widget-title msg-title">
+                  <span class="msg-title-container"></span>
+                </h3>
+                <div class="widget-content msg-content-container">
+                  <div
+                    widget="progressbar"
+                    id="reboot-progress"
+                    data-bind="rebootProgress"
+                    class="label-empty global-progress container widget-container progressbar-container progressbar-horizontal"
+                  >
+                    <div class="widget-fieldlabel-wrap">
+                      <div class="widget-fieldlabel-inner">
+                        <label
+                          class="widget-fieldlabel processbar-fieldlabel"
+                        ></label>
+                      </div>
+                    </div>
+                    <div class="widget-wrap-outer progressbar-wrap-outer">
+                      <div class="widget-wrap progressbar-wrap">
+                        <div class="widget-wrap progressbar-content">
+                          <div class="progressbar-value"></div>
+                        </div>
+                        <div class="progressbar-text">
+                          <span class="progressbar-percentage">0%</span>
+                        </div>
+                      </div>
+                      <div
+                        widget="errortip"
+                        error-cls=""
+                        id="reboot-progress_errortip"
+                        class="widget-error-tips"
+                        style="display: none"
+                      >
+                        <span class="widget-error-tips-delta"></span>
+                        <div class="widget-error-tips-wrap">
+                          <span class="widget-error-tips-delta"></span>
+                          <div class="content error-tips-content"></div>
+                        </div>
+                      </div>
+                      <div
+                        class="widget-tips textbox-tips"
+                        style="display: none"
+                      >
+                        <div class="content tips-content"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    widget="paragraph"
+                    id="reboot-hint"
+                    class="global-progress-under-text container widget-container label-empty paragraph-container"
+                    text="{OPERATION_MODE.REBOOTING}"
+                  >
+                    <div class="widget-wrap-outer paragraph-wrap-outer">
+                      Rebooting...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position-bottom-left"></div>
+        <div class="position-bottom-center"></div>
+        <div class="position-bottom-right"></div>
+      </div>
+      <div
+        widget="msg"
+        type="window"
+        id="loading-msg"
+        data-bind="loadingMsg"
+        class="global-progress z-index-1200-msg container widget-container msg-container window"
+        close-btn="{false}"
+        style="display: none"
+      >
+        <div class="position-top-left"></div>
+        <div class="position-top-center"></div>
+        <div class="position-top-right"></div>
+        <div class="position-center-left">
+          <div class="position-center-right">
+            <div class="msg-wrap">
+              <div class="msg-content-wrap">
+                <h3 class="widget-title msg-title">
+                  <span class="msg-title-container"></span>
+                </h3>
+                <div class="widget-content msg-content-container">
+                  <div
+                    widget="progressbar"
+                    data-bind="loadingProgress"
+                    class="label-empty global-progress container widget-container progressbar-container progressbar-horizontal infinite-progress circle-progress"
+                    circle="true"
+                    infinite="true"
+                    id="widget--e3446093-7134-b291-10a4-7e4ef7e06b85"
+                  >
+                    <div class="widget-fieldlabel-wrap">
+                      <div class="widget-fieldlabel-inner">
+                        <label
+                          class="widget-fieldlabel processbar-fieldlabel"
+                        ></label>
+                      </div>
+                    </div>
+                    <div class="widget-wrap-outer progressbar-wrap-outer">
+                      <div class="widget-wrap progressbar-wrap">
+                        <div class="widget-wrap progressbar-content">
+                          <div class="progressbar-value"></div>
+                        </div>
+                        <div class="progressbar-text">
+                          <span class="progressbar-percentage">0%</span>
+                        </div>
+                      </div>
+                      <div
+                        widget="errortip"
+                        error-cls=""
+                        id="widget--e3446093-7134-b291-10a4-7e4ef7e06b85_errortip"
+                        class="widget-error-tips"
+                        style="display: none"
+                      >
+                        <span class="widget-error-tips-delta"></span>
+                        <div class="widget-error-tips-wrap">
+                          <span class="widget-error-tips-delta"></span>
+                          <div class="content error-tips-content"></div>
+                        </div>
+                      </div>
+                      <div
+                        class="widget-tips textbox-tips"
+                        style="display: none"
+                      >
+                        <div class="content tips-content"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    widget="paragraph"
+                    data-bind="loadingText"
+                    class="global-progress-under-text container widget-container label-empty paragraph-container"
+                    text=""
+                    id="widget--da22b19d-3134-b291-10a4-7e4ee396f015"
+                  >
+                    <div class="widget-wrap-outer paragraph-wrap-outer"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position-bottom-left"></div>
+        <div class="position-bottom-center"></div>
+        <div class="position-bottom-right"></div>
+      </div>
+      <div
+        widget="msg"
+        type="window"
+        data-bind="{progressbarWrap}"
+        class="global-progress container widget-container msg-container window"
+        close-btn="{false}"
+        id="widget--aceec5eb-7134-b291-10a4-7e45f25dec9c"
+        style="display: none"
+      >
+        <div class="position-top-left"></div>
+        <div class="position-top-center"></div>
+        <div class="position-top-right"></div>
+        <div class="position-center-left">
+          <div class="position-center-right">
+            <div class="msg-wrap">
+              <div class="msg-content-wrap">
+                <h3 class="widget-title msg-title">
+                  <span class="msg-title-container"></span>
+                </h3>
+                <div class="widget-content msg-content-container">
+                  <div
+                    widget="progressbar"
+                    data-bind="{proBar}"
+                    class="label-empty global-progress container widget-container progressbar-container progressbar-horizontal"
+                    label-field="{false}"
+                    id="widget--200b8146-e134-b291-10a4-7e42b8396aca"
+                  >
+                    <div class="widget-fieldlabel-wrap">
+                      <div class="widget-fieldlabel-inner">
+                        <label class="widget-fieldlabel processbar-fieldlabel"
+                          >false</label
+                        >
+                      </div>
+                    </div>
+                    <div class="widget-wrap-outer progressbar-wrap-outer">
+                      <div class="widget-wrap progressbar-wrap">
+                        <div class="widget-wrap progressbar-content">
+                          <div class="progressbar-value"></div>
+                        </div>
+                        <div class="progressbar-text">
+                          <span class="progressbar-percentage">0%</span>
+                        </div>
+                      </div>
+                      <div
+                        widget="errortip"
+                        error-cls=""
+                        id="widget--200b8146-e134-b291-10a4-7e42b8396aca_errortip"
+                        class="widget-error-tips"
+                        style="display: none"
+                      >
+                        <span class="widget-error-tips-delta"></span>
+                        <div class="widget-error-tips-wrap">
+                          <span class="widget-error-tips-delta"></span>
+                          <div class="content error-tips-content"></div>
+                        </div>
+                      </div>
+                      <div
+                        class="widget-tips textbox-tips"
+                        style="display: none"
+                      >
+                        <div class="content tips-content"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    widget="paragraph"
+                    data-bind="{proBarTitle}"
+                    class="global-progress-under-text container widget-container label-empty paragraph-container"
+                    label-field="{false}"
+                    id="widget--49522dee-7134-b291-10a4-7e49cca9d2cc"
+                  >
+                    <div class="widget-wrap-outer paragraph-wrap-outer"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position-bottom-left"></div>
+        <div class="position-bottom-center"></div>
+        <div class="position-bottom-right"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
